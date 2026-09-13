@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>👀 Robot Eye & Sound Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FREDDY FAZ REMOTE</h1>
+        
+        <!-- Section LEDs/Yeux - 2 colonnes de 4 boutons -->
+        <div class="section">
+            <h2>LED Control</h2>
+            <div class="led-grid">
+                <a href="/couleur1" class="led-btn">
+                    <img src="sky_blue_button.png" alt="Sky Blue">
+                    <span>Bleu ciel</span>
+                </a>
+                <a href="/couleur2" class="led-btn">
+                    <img src="blue_button.png" alt="Blue">
+                    <span>Bleu foncé</span>
+                </a>
+                <a href="/couleur3" class="led-btn">
+                    <img src="green_button.png" alt="Green">
+                    <span>Vert</span>
+                </a>
+                <a href="/couleur4" class="led-btn">
+                    <img src="yellow_button.png" alt="Yellow">
+                    <span>Jaune</span>
+                </a>
+                <a href="/couleur5" class="led-btn">
+                    <img src="red_button.png" alt="Red">
+                    <span>Rouge</span>
+                </a>
+                <a href="/couleur6" class="led-btn">
+                    <img src="purple_button.png" alt="Purple">
+                    <span>Violet</span>
+                </a>
+                <a href="/couleur7" class="led-btn">
+                    <img src="light_button.png" alt="White">
+                    <span>Blanc</span>
+                </a>
+                <a href="/couleur8" class="led-btn">
+                    <img src="dark_button.png" alt="Off">
+                    <span>Éteint</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Section Sons MP3 -->
+        <div class="section">
+            <h2>🎵 SOUND CONTROL</h2>
+            
+            <!-- Contrôle du volume (max 30) -->
+            <div class="volume-control">
+                <label for="volume">Volume: <span id="volumeValue">15</span>/30</label>
+                <input type="range" id="volume" min="0" max="30" value="15" class="volume-slider">
+            </div>
+
+            <!-- Boutons sons - 2 colonnes avec les vrais noms des MP3 -->
+            <div class="sound-grid">
+                <a href="/son1" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>01 - Bonjour Nom FR</span>
+                </a>
+                <a href="/son2" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>02 - Des Bonbon Ou Je Vous Mors</span>
+                </a>
+                <a href="/son3" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>03 - Rattache Ma Tête</span>
+                </a>
+                <a href="/son4" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>04 - Bonjour Parle FR</span>
+                </a>
+                <a href="/son5" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>05 - Way To Go Superstar</span>
+                </a>
+                <a href="/son6" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>06 - Crise Existentielle</span>
+                </a>
+                <a href="/son7" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>07 - Daisy Bell</span>
+                </a>
+                <a href="/son8" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>08 - Let's Groove</span>
+                </a>
+                <a href="/son9" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>09 - I Am Your Friend</span>
+                </a>
+                <a href="/son10" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>10 - Félicitation</span>
+                </a>
+                <a href="/son11" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>11 - Hack Jumpscare</span>
+                </a>
+                <a href="/son12" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>12 - Come Back</span>
+                </a>
+                <a href="/son13" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>13 - Evil Superstar</span>
+                </a>
+                <a href="/son14" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>14 - Why Do You Hide</span>
+                </a>
+                <a href="/son15" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>15 - I Can't Control Myself</span>
+                </a>
+                <a href="/son16" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>16 - Never Be Alone</span>
+                </a>
+                <a href="/son17" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>17 - Freddy Song</span>
+                </a>
+                <a href="/son18" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>18 - Nightcall</span>
+                </a>
+                <a href="/son19" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>19 - FNAF 1 Song</span>
+                </a>
+                <a href="/son20" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>20 - Blinding Lights</span>
+                </a>
+                <a href="/son21" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>21 - Harder Better Faster Stronger</span>
+                </a>
+                <a href="/son22" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>22 - Nose Boop</span>
+                </a>
+                <a href="/son23" class="sound-btn">
+                    <img src="sound_button.png" alt="Play Sound">
+                    <span>23 - It's Been So Long</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Statut -->
+        <div class="status">
+            <p>🔊 <span id="statusMessage">Prêt</span></p>
+        </div>
+    </div>
+
+    <script>
+        // Gestion du volume (max 30)
+        const volumeSlider = document.getElementById('volume');
+        const volumeValue = document.getElementById('volumeValue');
+        const statusMessage = document.getElementById('statusMessage');
+
+        volumeSlider.addEventListener('input', function() {
+            volumeValue.textContent = this.value;
+        });
+
+        volumeSlider.addEventListener('change', function() {
+            const vol = this.value;
+            fetch(`/volume?value=${vol}`)
+                .then(response => {
+                    if(response.ok) {
+                        statusMessage.textContent = `Volume réglé sur ${vol}/30`;
+                        setTimeout(() => {
+                            statusMessage.textContent = 'Prêt';
+                        }, 2000);
+                    }
+                });
+        });
+
+        // Message quand on clique sur un son
+        document.querySelectorAll('.sound-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                const soundName = this.querySelector('span').textContent;
+                statusMessage.textContent = `Lecture: ${soundName}`;
+            });
+        });
+
+        // Message quand on change de couleur
+        document.querySelectorAll('.led-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                const colorName = this.querySelector('span').textContent;
+                statusMessage.textContent = `LED: ${colorName}`;
+            });
+        });
+    </script>
+</body>
+</html>

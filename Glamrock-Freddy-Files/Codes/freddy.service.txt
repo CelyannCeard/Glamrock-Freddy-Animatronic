@@ -1,0 +1,13 @@
+[Unit]
+Description=Demarrage automatique de Freddy
+After=multi-user.target network.target
+[Service]
+Type=simple
+ExecStart=/home/freddy/animatronic/lancer_freddy.sh
+Restart=on-failure
+User=root
+WorkingDirectory=/home/freddy/animatronic
+Environment=SDL_AUDIODRIVER=alsa
+Environment=AUDIODEV=hw:2,0
+[Install]
+WantedBy=multi-user.target
