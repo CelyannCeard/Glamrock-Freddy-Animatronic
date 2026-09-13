@@ -1,4 +1,4 @@
-<h1 align="center">🐻 Glamrock Freddy - AI-Powered Animatronic Head 🤖</h1>
+<h1 align="center">🐻 Glamrock Freddy - AI-Powered Animatronic Head</h1>
 
 <p align="center">
   <i>A fully autonomous, conversational animatronic robot powered by a NVIDIA Jetson Nano and LLMs.</i>
@@ -37,12 +37,23 @@ The mechanical structure was fully designed in **Creo Parametric** (based on mod
 | **Power Supply** | Konect LiPo 2S (7.4V 5600mAh) + Dollatek 300W/20A DC-DC converter (5V) |
 | **Audio & Network** | Jabra Evolve2 USB Mic, 3Ω Speaker, ASUS USB Wi-Fi Dongle |
 
+<img width="776" height="713" alt="image" src="https://github.com/user-attachments/assets/f76fea76-6e6d-48f4-9cb6-64e46fad9005" />
+
+
 <br>
 
 ## 🎨 3D Design & Mechanical Modeling
 
-* **Exterior Shells:** The outer head design, jaw, and hat models were adapted from 3D STL files created by cosplay content creator **LittleJem** (On YouTube).
+* **Exterior Shells:** The outer head design, jaw, and hat models were 3D printed, polished, and painted using STL files adapted from cosplay content creator LittleJem (YouTube).
 * **Custom Mechanics:** All internal mechanical components—including servomotor mounts, eye rotation mechanisms, and linkage systems for ear and eyelid articulation—were fully modeled from scratch in **PTC Creo (Creo Parametric)** to adapt the original shell and optimize kinematic performance.
+
+<p align="center">
+  <img width="230" height="307" alt="IMG_20250820_175437" src="https://github.com/user-attachments/assets/37b342b0-4491-499c-99dc-f6ce012d260b" />
+  <img width="230" height="307" alt="IMG_20251202_235558" src="https://github.com/user-attachments/assets/43e2dc1d-bd05-4f5e-a646-ea6b0d1a92dc" />
+  <img width="230" height="307" alt="IMG_20251205_154508" src="https://github.com/user-attachments/assets/c0560b96-a9f5-4084-9312-a3b03e87e16c" />
+</p>
+
+
 
 <br>
 
@@ -67,6 +78,12 @@ While the current system is fully functional, the following upgrades and extensi
 *   **Computer Vision:** Integrating a camera inside the eyes coupled with face-tracking algorithms to allow the animatronic to track and follow its interlocutor.
 *   **Mechanical & Aesthetic Refinements:** Improving movement fluidity, extending animated body parts, and touching up the paint on degraded sections (such as the eyelids).
 *   **Enhancement:** Replacing all jumper wires and breadboard connections with custom PCBs and permanent solder joints.
+
+
+
+https://github.com/user-attachments/assets/7f98c9fb-036b-433f-b017-530b4dbab740
+
+
 
 ---
 *Developed by Celyann CEARD.*
