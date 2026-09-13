@@ -4,6 +4,10 @@
   <i>A fully autonomous, conversational animatronic robot powered by a NVIDIA Jetson Nano and LLMs.</i>
 </p>
 
+<p align="center">
+  <i>(⚙️Still in development🛠️)</i>
+</p>
+
 ## 📝 Overview
 This repository contains the software architecture and control code for a life-size, fully functional animatronic head based on **Glamrock Freddy** (From Five Nights at Freddy's: Security Breach). 
 
@@ -81,10 +85,14 @@ While the current system is fully functional, the following upgrades and extensi
 *   **Microphone & Audio Upgrade:** Upgrading the microphone setup and integrating a PAM8403 amplifier for a more robust standalone speaker output.
 *   **Distributed Architecture with ROS 2:** Offloading the heavy AI reasoning workload to a host PC, establishing a **ROS 2** communication bridge between the laptop and the Jetson Nano.
 *   **Computer Vision:** Integrating a camera inside the eyes coupled with face-tracking algorithms to allow the animatronic to track and follow its interlocutor.
-*   **Mechanical & Aesthetic Refinements:** Improving movement fluidity, extending animated body parts, and touching up the paint on degraded sections (such as the eyelids).
+*   **Mechanical & Aesthetic Refinements:** Improving movement fluidity (Remanufacture of the eyes and their mechanism), extending animated body parts, and touching up the paint on degraded sections (such as the eyelids).
 *   **Enhancement:** Replacing all jumper wires and breadboard connections with custom PCBs and permanent solder joints.
 
+<br>
 
+## 📹 Demonstrations
+
+Full demonstration on You Tube (In French): https://youtu.be/uBhqnxuMKF0
 
 https://github.com/user-attachments/assets/7f98c9fb-036b-433f-b017-530b4dbab740
 
