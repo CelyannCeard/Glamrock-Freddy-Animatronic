@@ -7,6 +7,10 @@
 ## 📝 Overview
 This repository contains the software architecture and control code for a life-size, fully functional animatronic head based on **Glamrock Freddy** (From Five Nights at Freddy's: Security Breach). 
 
+<p align="center">
+<img width="616" height="353" alt="capsule_616x353" src="https://github.com/user-attachments/assets/979dfbc3-8aa0-48f0-93e9-e9473cbf4cb6" />
+</p>
+
 Originally developed as a homemade personal project and later as a 4th-year Embedded Systems engineering project at Polytech Lyon, this project evolved from a simple Arduino-controlled mask into a complex robotic system. The current version acts as a standalone autonomous agent capable of:
 *   **Real-time Conversational AI:** Listening to users, processing speech-to-text, generating LLM-based responses, and synthesizing realistic voice replies.
 *   **Autonomous Movements:** Procedurally generated eye tracking, blinking, and ear animations.
@@ -37,8 +41,9 @@ The mechanical structure was fully designed in **Creo Parametric** (based on mod
 | **Power Supply** | Konect LiPo 2S (7.4V 5600mAh) + Dollatek 300W/20A DC-DC converter (5V) |
 | **Audio & Network** | Jabra Evolve2 USB Mic, 3Ω Speaker, ASUS USB Wi-Fi Dongle |
 
+<p align="center">
 <img width="776" height="713" alt="image" src="https://github.com/user-attachments/assets/f76fea76-6e6d-48f4-9cb6-64e46fad9005" />
-
+</p>
 
 <br>
 
