@@ -66,6 +66,7 @@ While the current system is fully functional, the following upgrades and extensi
 *   **Distributed Architecture with ROS 2:** Offloading the heavy AI reasoning workload to a host PC, establishing a **ROS 2** communication bridge between the laptop and the Jetson Nano.
 *   **Computer Vision:** Integrating a camera inside the eyes coupled with face-tracking algorithms to allow the animatronic to track and follow its interlocutor.
 *   **Mechanical & Aesthetic Refinements:** Improving movement fluidity, extending animated body parts, and touching up the paint on degraded sections (such as the eyelids).
+*   **Enhancement:** Replacing all jumper wires and breadboard connections with custom PCBs and permanent solder joints.
 
 ---
 *Developed by Celyann CEARD.*
